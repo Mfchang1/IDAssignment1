@@ -13,17 +13,18 @@
     </header>
 
     <nav>
-        <div class="navigation"> <!--not completed-->
+        <div class="navigation"> <!--Navigation of different sections of the website-->
             <ul>
-              <li><a id="sec-1" href="#one">About Me</a></li>
-              <li><a id="sec-2" href="#two">Education</a></li>
-              <li><a id="sec-3" href="#three">Skillsets</a></li>
-              <li><a id="sec-4" href="#four">Contact Me</a></li>
+              <li><a id="sec-1" href="#aboutme">About Me</a></li>
+              <li><a id="sec-2" href="#education">Education</a></li>
+              <li><a id="sec-3" href="#skilsets">Skillsets</a></li>
+              <li><a id="sec-4" href="#reflection">Reflection</a></li>
+              <li><a id="sec-5" href="#contactme">Contact Me</a></li>
             </ul>
         </div>
      </nav>
 
-     <main class="firstsection"> <!--first section of the website which includes the image, title & description and about me-->
+     <main class="firstsection" id="aboutme"> <!--first section of the website which includes the image, title & description and about me-->
          <div id=image>
             <img src="Me.png">
             <p>A picture of myself</p>
@@ -33,9 +34,10 @@
              <h2>Title and description</h2>
              <p>
                 Hello everyone, this is a website that I have developed from scratch using HTML, CSS and Javascript. The website is my personal 
-                branding portfolio and it is a single scroll webpage. This website is seperated into four distinct sections, 
+                branding portfolio and it is a single scroll webpage. This website is seperated into five distinct sections, 
                 which can be seen from the naigation bar located at the top of the website. It features about me, which provides you with a 
-                introduction of myself, my education journey, skillsets and also a way to contact me. Have fun exploring the website 🤗 
+                introduction of myself, my education journey, skillsets, reflection and lastly a way to contact me via email. Have fun 
+                exploring the website 🤗 
              </p>
          </article>
 
@@ -66,11 +68,143 @@
          </article>
      </main>
 
-     <main class="secondsection"> <!--Second section of the website which includes my education journey-->
-        <h2>Journey Of My Education</h2>
-        <h3>2011 - Present</h3>
-        
+     <main class="secondsection" id="education"> <!--Second section of the website which includes my education journey-->
+        <article class="educationfirstparagraph"> <!--First paragraph of education journey-->
+            <h2>Journey Of My Education</h2>
+            <h2>2011 - Present</h2>
+            <p>
+               Being a lifelong learner is a trait that is really important to me, and I know that a good education 
+               is not just for the schoolyard. Some lessons were learned in the traditional way, while others I have 
+               received from professional mentors, while working and in some cases, friends and family. Read about my 
+               education journey and get in touch with any questions.
+            </p>
+        <article>
+        <br>
+        <article class="educationsecondparagraph"> <!--Second paragraph of education journey-->
+            <h2> Primary School</h2>
+            <h3>January 2011 - November 2016</h3>
+            <p>
+               I was enrolled in Zhenghua Primary school in January 2011. I have completed my six years of 
+               education in the school and have graduated from there. In 2016, I took the Primary School Leaving 
+               Examination (PSLE) and achieve a score that allowed me to graduate and move on to the next chapter 
+               of my life, secondary school. 
+            </p>
+        </article>
+        <br>
+        <article class="educationthirdparagraph"> <!--Third paragraph of education journey-->
+            <h2>Secondary School</h2>
+            <h3>January 2017 - November 2020</h3>
+            <p>
+               I was enrolled in Zhenghua Primary school in January 2011. I have completed my six years of 
+               education in the school and have graduated from there. In 2016, I took the Primary School Leaving 
+               Examination (PSLE) and achieve a score that allowed me to graduate and move on to the next chapter 
+               of my life, secondary school. 
+            </p>
+        </article>
+        <br>
+        <article class="educationfourthparagraph"> <!--Fourth paragraph of education journey-->
+            <h2>Polytechnic</h2>
+            <h3>April 2021 - Present</h3>
+            <p>
+               After completing the Singapore-Cambridge General Certificate of Education Ordinary Level 
+               (O-level), I went on to the School of InfoComm Technology (ICT) at Ngee Ann Polytechnic. What 
+               made me chose the School of InfoComm Technology (ICT) is my deep passion and curiosity for IT. I am
+               still currently a Year-One student and I am excited to learn more from my mentors and friends. I
+               can't wait to see what lies ahead of me in the future. 
+            </p>
+        </article>
+     </main>
 
+     <main class="thirdsection" id="skilsets"> <!--Third section of the website which includes my skillsets-->
+         <h2>Skillsets</h2>
+         <ul> <!--List of skillsets-->
+            <li>Python Programming</li>
+            <li>C# Programming</li>
+            <li>Website Development</li>
+            <li>Adobe Illustrator</li>
+            <li>Adobe XD</li>
+            <li>Computer Mathematics</li>
+            <li>Data Analytics</li>
+            <li>Cybersecurity</li>
+            <li>Fundamentals IT knowledge</li>
+            <li>Communication essentials</li>
+            <li>Bilingual (English and Chinese)</li>
+            <li>Primary and Secondary school core subjects</li>
+         </ul>  
+     </main>
+
+     <main class="fourthsection" id="reflection"> <!--Fourth section of the website which includes my reflection-->
+         <h2>My Reflection</h2>
+         <h3>This is a reflection over the course of my education from 2011 - present</h3>
+         <p>
+             Over the course of my education, I have learned many important skills that will guide me 
+             for the rest of my life. I have learned to always set a goal so that I have a direction to 
+             follow. I learned to do my best all the time and to ask questions when I don't understand.
+             I learned to take responsibility for my actions and to always treat people with the utmost 
+             respect. I learn to live life with respect, care, responsibility, integrity, and resilience. 
+             Since joining Ngee Ann Polytechnic, I have strengthened my core values and gain maturity. I hope 
+             to further learn more and grow my maturity over the next few years at Ngee Ann Polytechnic from my 
+             mentors, lecturers, and friends.
+         </p>
+     </main>
+
+     <main class="fifthsection" id="contactme">  <!--To be put into css-->
+        <style> <!--styling for contact form-->   
+            body {font-family: Arial, Helvetica, sans-serif;}
+            * {box-sizing: border-box;}
+            
+            input[type=text], select, textarea {
+              width: 100%;
+              padding: 12px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+              margin-top: 6px;
+              margin-bottom: 16px;
+              resize: vertical;
+            }
+            
+            input[type=submit] {
+              background-color: #04AA6D;
+              color: white;
+              padding: 12px 20px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+            }
+            
+            input[type=submit]:hover {
+              background-color: #45a049;
+            }
+            
+            .container {
+              border-radius: 5px;
+              background-color: #f2f2f2;
+              padding: 20px;
+            }
+        </style>
+
+        <h3>Contact Me</h3> 
+        <p>
+           Interested in learning more about me, my work or how we can collaborate on an upcoming project? Feel free to reach out anytime,
+           I would be more than happy to chat.
+        </p>
+            <div class="container"> <!--The contact form-->
+              <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+              </form>
+            </div>
      </main>
 
 

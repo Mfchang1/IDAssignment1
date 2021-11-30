@@ -1,0 +1,30 @@
+*{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin: 0%;
+    font-weight: 550;
+} /*Default settings for the website*/
+
+body{
+    background: #343148FF;
+    font-weight: 500;
+    margin: 0%;
+} /*Background colour and font weight of the website*/
+
+.heading{
+    background-color: #343148FF;
+    text-align: center;
+    margin: 0%;
+} /*CSS for the header of the website*/
+
+#image{
+    float: right;
+    padding: 40px ;
+}
+
+
+
+
+
+
+

@@ -5,30 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="normalize.css" /> <!--Normalize CSS link-->
+    <link type="text/css" rel="stylesheet" href="contactform.css" /> <!--Contact Form CSS link-->
+    <link type="text/css" rel="stylesheet" href="navigationbar.css" /> <!--Navigation Bar CSS link-->
+    <link type="text/css" rel="stylesheet" href="main.css" />  <!--Main CSS file link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">  <!--link for google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  <!--link for google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">  <!--link for google fonts-->
 </head>
 <body>
+   <header> <!--Navigation bar-->
+      <div class="navigation">
+        <img src="navigation.png" alt="logo" class="logo" width="auto" height="75">
+        <h1 class="logo"></h1>
+  
+        <nav>
+          <ul>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skillsets">Skillsets</a></li>
+            <li><a href="#reflection">Reflection</a></li>
+            <li><a href="#contactme">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
     <header class="heading"> <!--The Header of the website-->
         <h1>My Personal Portfolio</h1>
         <h2> Chang Ming Feng</h2>
     </header>
 
-    <nav>
-        <div class="navigation"> <!--Navigation of different sections of the website-->
-            <ul>
-              <li><a id="sec-1" href="#aboutme">About Me</a></li>
-              <li><a id="sec-2" href="#education">Education</a></li>
-              <li><a id="sec-3" href="#skilsets">Skillsets</a></li>
-              <li><a id="sec-4" href="#reflection">Reflection</a></li>
-              <li><a id="sec-5" href="#contactme">Contact Me</a></li>
-            </ul>
-        </div>
-     </nav>
+    
 
      <main class="firstsection" id="aboutme"> <!--first section of the website which includes the image, title & description and about me-->
-         <div id=image>
-            <img src="Me.png">
-            <p>A picture of myself</p>
-         </div>
+         <article>
+            <img src="Me.png" id="image" width="auto" height="380">
+            <p id=imagedesc>A picture of myself</p>
+         </article>
 
          <article class="titledesc">  <!--The title and description of this website-->
              <h2>Title and description</h2>
@@ -40,7 +55,7 @@
                 exploring the website 🤗 
              </p>
          </article>
-
+         <br>
          <article class="aboutme"> <!--The about me section-->
             <h2>About Me</h2>
             <h3>My background</h3>
@@ -50,24 +65,24 @@
                I would further specialize in my area of study in the IT industry and learn more programming langauges such as
                c#, HTML, CSS, Javascript, SQL and even DOS commands
             </p>
-            <br>
+           
             <p> <!--Second paragraph of about me-->
                In semester one, I have learned the basics of programming, computer mathematics, Adobe Illustrator, data analytics, and cybersecurity.
                I hope to continue building up these IT skills in the first year and second year.
             </p>
-            <br>
+           
             <p> <!--Third paragraph of about me-->
                In year three, I would complete an internship that will provide real-life experience and important technological skills. 
                I plan to graduate with a diploma in Infocomm Technology in the year 2024
             </p>
-            <br>
+           
             <p> <!--Fourth paragraph about me-->
                I have created this website so that you can to know me better and I can get to know you better. 
                Feel free to contact me if you have any queries, I would be more than happy to answer you.
             </p>
          </article>
      </main>
-
+     <br>
      <main class="secondsection" id="education"> <!--Second section of the website which includes my education journey-->
         <article class="educationfirstparagraph"> <!--First paragraph of education journey-->
             <h2>Journey Of My Education</h2>
@@ -79,7 +94,7 @@
                education journey and get in touch with any questions.
             </p>
         <article>
-        <br>
+        
         <article class="educationsecondparagraph"> <!--Second paragraph of education journey-->
             <h2> Primary School</h2>
             <h3>January 2011 - November 2016</h3>
@@ -90,7 +105,7 @@
                of my life, secondary school. 
             </p>
         </article>
-        <br>
+        
         <article class="educationthirdparagraph"> <!--Third paragraph of education journey-->
             <h2>Secondary School</h2>
             <h3>January 2017 - November 2020</h3>
@@ -101,7 +116,7 @@
                of my life, secondary school. 
             </p>
         </article>
-        <br>
+        
         <article class="educationfourthparagraph"> <!--Fourth paragraph of education journey-->
             <h2>Polytechnic</h2>
             <h3>April 2021 - Present</h3>
@@ -114,8 +129,8 @@
             </p>
         </article>
      </main>
-
-     <main class="thirdsection" id="skilsets"> <!--Third section of the website which includes my skillsets-->
+     <br>
+     <main class="thirdsection" id="skillsets"> <!--Third section of the website which includes my skillsets-->
          <h2>Skillsets</h2>
          <ul> <!--List of skillsets-->
             <li>Python Programming</li>
@@ -132,7 +147,7 @@
             <li>Primary and Secondary school core subjects</li>
          </ul>  
      </main>
-
+     <br>
      <main class="fourthsection" id="reflection"> <!--Fourth section of the website which includes my reflection-->
          <h2>My Reflection</h2>
          <h3>This is a reflection over the course of my education from 2011 - present</h3>
@@ -147,64 +162,27 @@
              mentors, lecturers, and friends.
          </p>
      </main>
-
-     <main class="fifthsection" id="contactme">  <!--To be put into css-->
-        <style> <!--styling for contact form-->   
-            body {font-family: Arial, Helvetica, sans-serif;}
-            * {box-sizing: border-box;}
-            
-            input[type=text], select, textarea {
-              width: 100%;
-              padding: 12px;
-              border: 1px solid #ccc;
-              border-radius: 4px;
-              box-sizing: border-box;
-              margin-top: 6px;
-              margin-bottom: 16px;
-              resize: vertical;
-            }
-            
-            input[type=submit] {
-              background-color: #04AA6D;
-              color: white;
-              padding: 12px 20px;
-              border: none;
-              border-radius: 4px;
-              cursor: pointer;
-            }
-            
-            input[type=submit]:hover {
-              background-color: #45a049;
-            }
-            
-            .container {
-              border-radius: 5px;
-              background-color: #f2f2f2;
-              padding: 20px;
-            }
-        </style>
-
-        <h3>Contact Me</h3> 
+     <br>
+     <main class="fifthsection" id="contactme">  <!--Fifth section of the website which includes the contact me form-->    
+        <h2>Contact Me</h2> 
         <p>
            Interested in learning more about me, my work or how we can collaborate on an upcoming project? Feel free to reach out anytime,
            I would be more than happy to chat.
         </p>
-            <div class="container"> <!--The contact form-->
-              <form action="/action_page.php">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <article class="form"> <!--The contact form-->
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
             
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
             
-                
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
             
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-            
-                <input type="submit" value="Submit">
-              </form>
-            </div>
+              <input type="submit" value="Submit">
+            </form>
+        </article>
      </main>
 
 

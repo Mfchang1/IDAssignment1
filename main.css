@@ -7,7 +7,6 @@
     
 } /*Default settings for the website*/
 
-
 /*font size and colour for headings and paragraph*/
 h1 {
   font-size: 40px;
@@ -28,7 +27,6 @@ p {
   font-size: 17px;
 }
 /* end of css for font size heading and paragraph*/
-
 
 body{
     background: #343148FF;
@@ -57,7 +55,61 @@ body{
     text-align: center;
     padding: 30px;
     border: 5px solid black;
+    margin: 10px;
+    margin-bottom: 20px;
+} /*css fot second sectoin, education*/
+
+.thirdsection{
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top:50px;
+    padding-bottom: 350px;
+    overflow: auto;
+    
+    border: 5px solid black;
 }
+
+#h2thirdsection{
+    float: left;
+    padding: 30px;
+    padding-top: 75px;
+    padding-left: 40px;
+    font-size: 100px;
+} /*h2 heading css for third section, skillsets*/
+
+#ulthirdsection{
+    float: right;
+    padding-bottom: 30px;
+    padding-right: 90px;
+    line-height: 25px;
+} /*ul css for third section, skillsets*/
+
+.fourthsection{
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding:30px;
+    border: 5px solid black;
+    text-align: center;
+} /*css for fourth section, my reflection*/
+
+.fifthsection{
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding:30px;
+    border: 5px solid black;
+} /*css fot fifthsection, contact me*/
+
+.titlefifthsection{
+    padding-left: 20px;
+}
+
+
+
+
+
 
 
 

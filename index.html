@@ -13,9 +13,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">  <!--link for google fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  <!--link for google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">  <!--link for google fonts-->
-    <script src="script.js"></script>
 </head>
 <body>
+   
      <header> <!--Navigation bar-->
       <div class="navigation">
         <img src="navigation.png" alt="logo" class="logo" width="auto" height="70">
@@ -182,16 +182,19 @@
             
               <label for="lname">Last Name</label>
               <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-            
+
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Your email..">
+              
               <label for="subject">Subject</label>
               <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
             
-              <input type="submit" value="Submit">
+              <input type="submit" value="Submit" onclick="submitform()">
             </form>
         </article>
      </main>
-
-
-    
+     
+     <script src="script.js"></script> <!--Javascript file link-->
+   
 </body>
 </html>

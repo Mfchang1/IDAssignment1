@@ -3,6 +3,22 @@
 body {font-family: 'Lato', sans-serif;}
 * {box-sizing: border-box;}
 
+#fname{
+  color: black;
+} /*Text colour input for first name*/
+
+#lname{
+  color: black;
+} /*Text colour input for last name*/
+
+#email{
+  color: black;
+} /*Text colour input for email*/
+
+#subject{
+  color: black;
+} /*Text colour input for subject*/
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -43,7 +59,7 @@ input[type=submit]:hover {
 
 .titlefifthsection{
   padding-left: 20px;
-}/*CSS for title and description of contact me*
+} /*CSS for title and description of contact me*
 
 /*End of CSS for contact form*/
 

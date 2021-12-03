@@ -1,0 +1,36 @@
+/* Smartphones (portrait and landscape) */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    nav ul{
+        height: 200px;
+        flex-direction: column;
+        text-align: center;
+    } /*repositioning of the nav bar when viewed on mobile phones*/
+
+    nav li {
+        display: inline-block;
+        margin: 10px;
+        padding-top: px;
+        position: relative;
+    } /*repositioning of the nav bar*/
+
+    .logo{
+        display: none;
+    } /*hide the navigation logo when webiste is viewed on phone*/
+
+    #image{
+        height: 340px;
+        width: auto;
+    } /*image resize when using phone*/
+
+    #h2thirdsection{
+        text-align: center;
+        padding: 30px;
+        font-size: 80px;
+    } /* Skillets heading repostioned when using phone*/
+
+}
+
+

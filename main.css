@@ -5,28 +5,27 @@
     font-weight: 550;
     letter-spacing: 1.1px;
     
-} /*Default settings for the website*/
+} /*Default settings for the entire website*/
 
-/*font size and colour for headings and paragraph*/
+
 h1 {
   font-size: 40px;
   color: #ADEFD1FF;
-}
+} /*font size and colour for headings and paragraph*/
 
 h2 {
   font-size: 30px;
   color: #ADEFD1FF;
-}
+} /*font size and colour for headings and paragraph*/
 
 h3{
     font-size: 25px;
     color: #ADEFD1FF;
-}
+} /*font size and colour for headings and paragraph*/
 
 p {
   font-size: 17px;
-}
-/* end of css for font size heading and paragraph*/
+} /*font size and colour for headings and paragraph*/
 
 body{
     background: #343148FF;
@@ -43,13 +42,13 @@ body{
 #image{
     float: right;
     padding: 40px ;
-}
+} /*CSS for my profile picture*/
 
 .firstsection{
     text-align: left;
     text-align: justify;
     padding: 15px;
-}
+} /*CSS for first section of the website which includes title,description and about me*/
 
 .secondsection{
     text-align: center;
@@ -57,18 +56,17 @@ body{
     border: 5px solid black;
     margin: 10px;
     margin-bottom: 20px;
-} /*css fot second sectoin, education*/
+} /*CSS for second section of the website which is about education*/
 
 .thirdsection{
     margin-bottom: 20px;
     margin-right: 10px;
     margin-left: 10px;
-    padding-top:50px;
-    padding-bottom: 350px;
-    overflow: auto;
-    
+    padding-top: 45px;
+    padding-bottom: 45px;
+    overflow: auto;   
     border: 5px solid black;
-}
+} /*CSS for third section of the website which is about skillsets*/
 
 #h2thirdsection{
     float: left;
@@ -76,14 +74,14 @@ body{
     padding-top: 75px;
     padding-left: 40px;
     font-size: 100px;
-} /*h2 heading css for third section, skillsets*/
+} /*h2 heading CSS for third section(skillsets)*/
 
 #ulthirdsection{
     float: right;
     padding-bottom: 30px;
     padding-right: 90px;
-    line-height: 25px;
-} /*ul css for third section, skillsets*/
+    line-height: 28px;
+} /*ul CSS for third section(skillsets)*/
 
 .fourthsection{
     margin-bottom: 20px;
@@ -92,19 +90,8 @@ body{
     padding:30px;
     border: 5px solid black;
     text-align: center;
-} /*css for fourth section, my reflection*/
+} /*CSS for fourth section which is my reflection*/
 
-.fifthsection{
-    margin-bottom: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
-    padding:30px;
-    border: 5px solid black;
-} /*css fot fifthsection, contact me*/
-
-.titlefifthsection{
-    padding-left: 20px;
-}
 
 
 
